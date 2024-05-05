@@ -13,7 +13,7 @@ body {
   width: 80%;
 }
 
-.images-section, .login-section  {
+.images-section, .login-section {
   height: 95%;
   width: 45%;
   background-position-x: right;
@@ -32,13 +32,13 @@ body {
   align-self: center;
 }
 
-.line-text{
+.line-text {
   padding: 0 .5rem; /* creates the space */
   font-size: small;
   margin: 0;
 }
 
-.line{
+.line {
   flex: 1;
   height: 1px;
   background-color: rgb(139, 137, 137);
@@ -50,16 +50,16 @@ body {
   margin-right: .5rem
 }
 
-.card::-webkit-scrollbar{
+.card::-webkit-scrollbar {
   width: 0;
 }
 
 .filepond--item {
-    width: calc(50% - 0.5em);
+  width: calc(50% - 0.5em);
 }
 
 .filepond--root {
-    max-height: 20em;
+  max-height: 20em;
 }
 
 .color-red {
@@ -82,6 +82,7 @@ body {
   transform: translate(-50%, -50%);
   text-shadow: 1px 1px 10px #000000a6;
 }
+
 .profile-post:hover img {
   opacity: 50%;
 }
@@ -97,7 +98,7 @@ body {
   font-weight: bold;
   border-left: solid black 3px;
   background-color: rgb(248, 248, 248);
-} 
+}
 
 
 .profile-edit-btn:hover {
